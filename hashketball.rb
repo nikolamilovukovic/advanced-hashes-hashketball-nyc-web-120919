@@ -96,7 +96,7 @@ def game_hash
                     :steals => 1,
                     :blocks => 1,
                     :slam_dunks => 0, 
-                    },
+                    }
                   ]
       }
     }
