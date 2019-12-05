@@ -141,3 +141,6 @@ def game_hash
       end    
     end    
   end 
+  
+  def shoe_size
+    game_hash.each do |
