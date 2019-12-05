@@ -47,9 +47,11 @@ def game_hash
                   :blocks => 8,
                   :slam_dunks => 5, 
                   },
-
-  :home => {  :team_name => "Brooklyn Nets",
-                :color => [ "Black", "White"],
+    },
+  
+    {
+      :home => {  :team_name => "Br",
+                :color => [ "", ""],
                 :players => [
                   {
                   :player_name => "Alan Anderson",
@@ -96,50 +98,4 @@ def game_hash
                   :slam_dunks => , 
                   },
                   ],
-                    :home => {  :team_name => "Brooklyn Nets",
-                :color => [ "Black", "White"],
-                :players => [
-                  {
-                  :player_name => "Alan Anderson",
-                  :number => 0,
-                  :shoe => 16,
-                  :points => 22,
-                  :rebounds => 12,
-                  :assists => 12,
-                  :steals => 3,
-                  :blocks => 1,
-                  :slam_dunks => 1,
-                },
-                  {
-                  :player_name => "Reggie Evans",
-                  :number => ,
-                  :shoe => ,
-                  :points => ,
-                  :rebounds =>  ,
-                  :assists => ,
-                  :steals => ,
-                  :blocks => ,
-                  :slam_dunks => , 
-                  }, 
-                    {
-                  :player_name => "Reggie Evans",
-                  :number => ,
-                  :shoe => ,
-                  :points => ,
-                  :rebounds =>  ,
-                  :assists => ,
-                  :steals => ,
-                  :blocks => ,
-                  :slam_dunks => , 
-                  },
-                  {
-                  :player_name => "Reggie Evans",
-                  :number => ,
-                  :shoe => ,
-                  :points => ,
-                  :rebounds =>  ,
-                  :assists => ,
-                  :steals => ,
-                  :blocks => ,
-                  :slam_dunks => , 
-                  },
+                   
