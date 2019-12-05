@@ -1,3 +1,5 @@
+require
+
 def game_hash
   {
     :home => {  :team_name => "Brooklyn Nets",
@@ -104,5 +106,8 @@ def game_hash
   end 
   
   def num_points_scored(players_name)
-    game_hash.each(players_name[:players][:points])
+    game_hash.each do |place, team|
+      
+    end 
+    
 end                    
