@@ -103,6 +103,6 @@ def game_hash
     }
   end 
   
-  def num_points_scored
-    game_hash.each[:players][:points]
+  def num_points_scored(players_name)
+    game_hash.each(players_name[:players][:points])
 end                    
