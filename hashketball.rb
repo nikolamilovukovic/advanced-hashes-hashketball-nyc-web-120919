@@ -112,7 +112,6 @@ def game_hash
           data.each do |player|
             if player[:players_name] == players_name
               return players[:points]
-        binding.pry
             end 
           end 
         end 
