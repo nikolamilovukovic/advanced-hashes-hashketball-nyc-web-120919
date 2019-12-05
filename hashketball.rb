@@ -142,5 +142,5 @@ def game_hash
     end    
   end 
   
-  def shoe_size
+  def shoe_size(players_names)
     game_hash.each do |
