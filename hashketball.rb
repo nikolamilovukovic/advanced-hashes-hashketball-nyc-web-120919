@@ -170,6 +170,10 @@ def team_names
   end 
   
 def player_numbers(team_name)
-  
+  #returns array of the jersey numbers for that team_name
+  pp (team_name)
+
+
+end
     
     
