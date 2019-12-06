@@ -168,6 +168,7 @@ def team_names
   game_hash.map do |place, team|
     team[:team_names]
   end 
+  end 
   
 def player_numbers(team_name)
   #returns array of the jersey numbers for that team_name
@@ -185,4 +186,3 @@ def player_numbers(team_name)
   end
   nums
 end 
-end
