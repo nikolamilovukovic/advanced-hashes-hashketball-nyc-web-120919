@@ -219,3 +219,43 @@ def big_shoe_rebounds
   end
   return player_rebounds
 end
+def most_points_scored
+
+  most_points = 0
+  points_owner = ""
+  game_hash.values.each do |team_info|
+    team_info[:players].each do |player|
+      if player[:points] > most_points
+        most_points = player[:points] 
+        points_owner = player[:player_name] 
+      end
+    end
+  end
+  return points_owner
+end
+
+
+def winning_team
+
+  top_team = {}
+  game_hash.values.each do |team_info|
+    team_points = 0
+    team_info[:players].each do |player|
+      team_points += player[:points]
+    end
+    top_team[team_info[:team_name]] = team_points
+  end
+  top_team.key(top_team.values.max) 
+end
+
+
+def player_with_longest_name
+
+  longest_name = []
+  game_hash.values.each do |team_info|
+    team_info[:players].each do |player|
+      longest_name << player[:player_name]
+    end
+  end
+longest_name.max_by{|name| name.length}
+end
